@@ -1,0 +1,11 @@
+<?php
+
+// Fichier à inclure dans GitHub
+$host = 'PUTHOSTNAME';
+$bdd = 'PUTDBNAME';
+$user = 'PUTUSER';
+$password = 'PUTPASSWORD';
+
+$bdd = new PDO('mysql:hostname='.$host.';dbname='.$bdd, $user, $password);
+
+?>
